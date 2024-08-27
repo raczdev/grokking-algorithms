@@ -1,8 +1,8 @@
-package searches;
+package search;
 
 public class BinarySearch {
     
-    public static void findNumber(int[] arrayList, int numberToFind) {
+    public static void findNumber(Integer[] arrayList, int numberToFind) {
         int left = 0;
         int right = arrayList.length - 1;
 
